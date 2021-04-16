@@ -2326,30 +2326,18 @@ input, select, textarea {
 			max-width: 40%;
 		}
 		
-		.image.caption img {
-    	display: block;
-    	margin: 0 auto;
+		.image.small {
+			max-width: 32%;
+		}
+		
+		.image.left img, .image.right img {
 			width: 100%;
-			float: right;
 		}
 		
-		.image.caption {
-		    text-align: center;
-		    max-width: 40%;
-				float: right;
+		.image.small img{
+			width: 100%;
 		}
 		
-		.image iframe{
-			frameborder: 0;
-			scrolling: yes;
-		  width: 55%;
-			height: 100%;
-		}
-
-			.image.left img, .image.right img {
-				width: 100%;
-			}
-
 		.image.left {
 			float: left;
 			padding: 0 1.5em 1em 0;
@@ -2358,6 +2346,11 @@ input, select, textarea {
 
 		.image.right {
 			float: right;
+			padding: 0 0 1em 1.5em;
+			top: 0.25em;
+		}
+		
+		.image.small {
 			padding: 0 0 1em 1.5em;
 			top: 0.25em;
 		}
